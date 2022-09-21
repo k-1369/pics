@@ -1,0 +1,405 @@
+@font-face {
+	font-family: 'Comfortaa';
+	src: url('AnyConv.com__Comfortaa-Light.woff2') format('woff2'),
+			 url('AnyConv.com__Comfortaa-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a{
+	color: #fff;
+}
+
+body{
+	background: rgb(44, 44, 44);
+	color: rgb(255, 255, 255);
+	font-family: 'Comfortaa', sans-serif;
+	line-height: 26px;
+}
+
+.lang{
+	width: 100%;
+	display: flex;
+	white-space: nowrap;
+	align-items: center;
+	justify-content: center;
+	background: rgb(26, 26, 26);
+	padding: 10px 0;
+	border-top: rgb(15, 113, 138) solid 1px;
+}
+
+.lang a{
+	display: flex;
+	align-items: center;
+}
+
+.changeLang{
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.jellyFish{
+	white-space: nowrap;
+	display: flex;
+	margin-right: 800px;
+}
+
+.jelPic{
+	width: 40px;
+	height: 40px;
+	margin: auto 0;
+}
+
+.jelTxt{
+	margin: auto 0 auto 20px;
+}
+
+.jelTxt2{
+	display: none;
+}
+
+#fr{
+	border-radius: 3px;
+	margin-left: 10px;
+}
+#en{
+	border-radius: 3px;
+	margin-left: 10px;
+}
+#ru{
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+.wrapp1{
+	display: flex;
+}
+
+main{
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.homeWrapp{
+	display: flex;
+	justify-content: center;
+}
+
+.home{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+.margin{
+	margin-right: 30px;
+}
+
+
+
+
+#left,#right{
+	margin-bottom: 30px;
+}
+
+footer{
+	background: rgb(26, 26, 26);
+	color: #fff;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	justify-content: center;
+}
+
+.contact{
+	color: rgb(20, 166, 202);
+}
+
+@media(max-width:1100px){
+	#font{
+		font-size: 18px;
+	}
+	.jellyFish{
+		margin-right: 600px;
+	}
+	#en{
+		width: 25px;
+		height: 25px;
+	}
+	#ru{
+		width: 25px;
+		height: 25px;
+	}
+	#fr{
+		width: 25px;
+		height: 25px;
+	}
+	.jelTxt{
+		top: 33px;
+	}
+	.changeLang{
+		height: 25px;
+	}
+}
+
+@media(max-width:870px){
+	.wrapp1 img{
+		width: 200px;
+		height: 200px;
+	}
+	.margin{
+		margin-right: 15px;
+	}
+	#left,#right{
+		margin-bottom: 15px;
+	}
+	.nav{
+		height: 70px;
+	}
+	#font{
+		font-size: 16px;
+	}
+	.jelPic{
+		width: 30px;
+		height: 30px;
+	}
+	.jelTxt{
+		margin-left: 15px;
+	}
+	.jellyFish{
+		margin-right: 400px;
+	}
+}
+
+@media(max-width:600px){
+	.jellyFish{
+		margin-right: 200px;
+	}
+	#font{
+		font-size: 14px;
+	}
+	.nav{
+		height: 60px;
+	}
+	.spans span{
+		width: 25px;
+		height: 1px;
+	}
+	.group{
+		display: flex;
+		align-items: center;
+	}
+	.menu li{
+		font-size: 16px;
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+	}
+	.group img{
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+	}
+	.home{
+		height: 20px;
+	}
+}
+
+@media(max-width:450px){
+	main{
+		padding: 15px 0;
+	}
+	.home{
+		margin-bottom: 20px;
+	}
+	.jelPic{
+		width: 20px;
+		height: 20px;
+	}
+	.jellyFish{
+		margin-right: 100px;
+	}
+	footer{
+		height: 100px;
+	}
+	.jelTxt{
+		margin-left: 10px;
+	}
+	.changeLang{
+		height: 20px;
+	}
+	#en{
+		width: 20px;
+		height: 20px;
+		margin-left: 7px;
+	}
+	#ru{
+		width: 20px;
+		height: 20px;
+		margin-left: 7px;
+	}
+	#fr{
+		width: 20px;
+		height: 20px;
+		margin-left: 7px;
+	}
+	.lang{
+		padding: 5px 0;
+	}
+	.progress-container {
+		height: 5px;
+	}
+	.progress-bar {
+		height: 5px;
+	}
+	#font{
+		font-size: 12px;
+	}
+	.wrapp1 img{
+		width: 150px;
+		height: 150px;
+	}
+	.margin{
+		margin-right: 5px;
+	}
+	#left,#right{
+		margin-bottom: 5px;
+	}
+}
+
+@media(max-width:315px){
+	.jellyFish{
+		margin-right: 60px;
+	}
+	.spans span{
+		width: 18px;
+	}
+	
+	.changeLang{
+		height: 15px;
+	}
+	.menu li{
+		font-size: 12px;
+	}
+	.nav{
+		height: 40px;
+	}
+	.jelPic{
+		width: 15px;
+		height: 15px;
+	}
+	#en{
+		width: 15px;
+		height: 15px;
+		border-radius: 2px;
+	}
+	#fr{
+		width: 15px;
+		height: 15px;
+		border-radius: 2px;
+	}
+	#ru{
+		width: 15px;
+		height: 15px;
+		border-radius: 2px;
+	}
+	#font{
+		font-size: 8px;
+	}
+	footer{
+		height: 60px;
+	}
+	.wrapp1 img{
+		width: 100px;
+		height: 100px;
+	}
+	.margin{
+		margin-right: 3px;
+	}
+	#left,#right{
+		margin-bottom: 3px;
+	}
+	.home{
+		height: 17px;
+		margin-bottom: 10px;
+	}
+	main{
+		padding: 5px 0;
+	}
+}
+
+@media(max-width:210px){
+	.wrapp1 img{
+		width: 60px;
+		height: 60px;
+	}
+	.margin{
+		margin-right: 1px;
+	}
+	#left,#right{
+		margin-bottom: 1px;
+	}
+	.menu li{
+		font-size: 10px;
+	}
+	#en{
+		width: 12px;
+		height: 12px;
+		margin-left: 5px;
+		border-radius: 1px;
+	}
+	#fr{
+		width: 12px;
+		height: 12px;
+		margin-left: 5px;
+		border-radius: 1px;
+	}
+	#ru{
+		width: 12px;
+		height: 12px;
+		margin-left: 5px;
+		border-radius: 1px;
+	}
+	#font{
+		font-size: 7px;
+	}
+	footer{
+		height: 50px;
+	}
+	.jelTxt2{
+		display: block;
+		margin: auto 0 auto 5px;
+	}
+	.jelTxt{
+		display: none;
+	}
+	.jellyFish{
+		margin-left: 10px;
+		margin-right: 40px;
+	}
+	.jelPic{
+		width: 13px;
+		height: 13px;
+	}
+	.progress-container {
+		height: 4px;
+	}
+	.spans span{
+		width: 15px;
+	}
+	.spans span:nth-of-type(2) {
+		top: calc(50% - 4px);
+	}
+	.spans span:nth-of-type(3) {
+		top: calc(50% + 4px);
+	}
+	.progress-bar {
+		height: 4px;
+	}
+	.group img{
+		width: 20px;
+		height: 20px;
+		margin-right: 7px;
+	}
+}
